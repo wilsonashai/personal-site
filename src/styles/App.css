@@ -1,23 +1,40 @@
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
-
-.App-title {
-  font-size: 1.5em;
-}
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
 
 .App-intro {
   font-size: large;
+  margin-left: 5px !important;
 }
 
+.App {
+    background-image: url(../images/keana_point_may_2015.jpg);
+    height: 100%;
+    background-size: cover;
+}
+
+#root {
+    height: 100%;
+}
+
+.navi {
+    width: 100%;
+    margin-left: .8% !important;
+}
+
+.nav-header {
+    font-size: 3em;
+    padding-top: 1.5rem;
+    margin-left: 5%;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+}
+
+.nav-items {
+    font-size: 1.25em;
+}
+
+.grid {
+    margin-left: 0px !important;
+}
 
 .height-100 {
     height: 100%;

@@ -1,22 +1,17 @@
 import React, { Component } from 'react';
 import './styles/App.css';
-import { Grid, Segment } from 'semantic-ui-react';
-import Sidebar from './components/Sidebar';
+import { Grid } from 'semantic-ui-react';
+import NavBar from './components/NavBar';
 
 class App extends Component {
     render() {
         return (
             <div className="App">
+                <NavBar/>
                 <Grid>
-                    <Grid.Column width={4}>
-                        <Sidebar/>
-                    </Grid.Column>
-                    <Grid.Column width={12}>
-                        <header className="App-header">
-                            <h1 className="App-title">Asha Wilson</h1>
-                        </header>
+                    <Grid.Row>
                         <p className="App-intro">Endless possibilities await...</p>
-                    </Grid.Column>
+                    </Grid.Row>
                 </Grid>
             </div>
         );
