@@ -37,7 +37,8 @@
 .side-bar-container {
     border-right: 1px solid #C1CDD1;
     margin-left: 20px;
-    /* position: fixed; */
+    width: inherit;
+    position: fixed;
     height: 100%;
     bottom: 0;
     top: 0;

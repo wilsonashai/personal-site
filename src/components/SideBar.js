@@ -11,7 +11,7 @@ class SideBar extends Component {
         return (
             <div className="side-bar-container">
                 <div className="top-header">
-                    <h1 className="name-header">Asha Wilson</h1>
+                    <h1 className="name-header">Asha <br/>Wilson</h1>
                     <p className="subheader">Developer | Designer</p>
                 </div>
                 <div className="bottom-header">

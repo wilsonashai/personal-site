@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './styles/App.css';
 import { Grid } from 'semantic-ui-react';
-import NavBar from './components/NavBar';
 import SideBar from './components/SideBar';
 
 class App extends Component {
