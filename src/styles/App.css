@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Oswald:400,500,600');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400|Roboto+Slab:300,400');
 @import url('https://fonts.googleapis.com/css?family=PT+Sans');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
 
@@ -8,7 +8,7 @@
 }
 
 .App {
-    background-color: #E9EBEC;
+    /* background-color: #E9EBEC; */
     height: 100%;
     background-size: cover;
     /* margin: 3rem auto; */
@@ -23,10 +23,13 @@
 }
 
 .name-header {
-    font-size: 72px;
-    font-family: 'Oswald', sans-serif;
-    font-weight: 500;
-    color: #536978;
+    font-size: 64px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    margin-top: 3rem;
+    color:#555555;
+    text-align: left;
+    /* font-variant: small-caps; */
     margin-bottom: none!important;
 }
 
@@ -35,8 +38,7 @@
 }
 
 .side-bar-container {
-    border-right: 1px solid #C1CDD1;
-    margin-left: 20px;
+    border-right: 1.25px solid #ebefea;
     width: inherit;
     position: fixed;
     height: 100%;
@@ -44,19 +46,23 @@
     top: 0;
 }
 
+.top-header {
+    margin-left: 2rem; 
+}
+
 .subheader {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 300;
-    font-size: 18px;
-    margin-left: 5px;
-    color: #ADADAD;
+    font-size: 16px;
+    text-align: left;
+    color: #333399;
 }
 
 .bottom-header {
-    margin-left: 5px;
+    margin-left: 2rem;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 12px;
     bottom: 0 !important;
     position: fixed;
     display: block;
@@ -69,11 +75,25 @@
 }
 
 .sidebar-links > a {
-    color: #A891AB;
+    color: #555555;
 }
 
 .sidebar-links > a:hover {
     color: #5D3F61;
+}
+
+.info-container {
+    padding-top: 15px;
+    padding-left: 30px;
+    text-align: center;
+}
+
+.header-buttons {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 400;
+    font-size: 16px!important;
+    margin-right: .5rem!important;
+    box-shadow: none!important;
 }
 
 .grid {
@@ -82,4 +102,8 @@
 
 .height-100 {
     height: 100%;
+}
+
+padding-none {
+    padding: 0px!important;
 }

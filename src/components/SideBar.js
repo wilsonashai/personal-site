@@ -11,11 +11,11 @@ class SideBar extends Component {
         return (
             <div className="side-bar-container">
                 <div className="top-header">
-                    <h1 className="name-header">Asha <br/>Wilson</h1>
+                    <h1 className="name-header">Asha Wilson</h1>
                     <p className="subheader">Developer | Designer</p>
                 </div>
                 <div className="bottom-header">
-                    <Grid columns={4}>
+                    <Grid columns={3}>
                         <Grid.Row className="sidebar-links">
                             <a href="mailto:wilson.ashai@gmail.com"><Icon size="large" name="mail"/> wilson.ashai@gmail.com</a>
                         </Grid.Row>
