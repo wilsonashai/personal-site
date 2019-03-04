@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400|Roboto+Slab:300,400');
 @import url('https://fonts.googleapis.com/css?family=PT+Sans');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
+@import url('https://fonts.googleapis.com/css?family=Oranienbaum');
 
 .App-intro {
   font-size: large;
@@ -23,14 +24,14 @@
 }
 
 .name-header {
-    font-size: 64px;
-    font-family: 'Roboto Slab', serif;
-    font-weight: 400;
-    margin-top: 3rem;
-    color:#555555;
+    font-size: 68px;
+    font-family: 'Oranienbaum', serif;
+    /* font-weight: 400; */
+    padding-top: 3rem;
+    color:#333333;
     text-align: left;
-    /* font-variant: small-caps; */
     margin-bottom: none!important;
+    line-height: 1;
 }
 
 #root {
@@ -39,7 +40,7 @@
 
 .side-bar-container {
     border-right: 1.25px solid #ebefea;
-    width: inherit;
+    width: 250px;
     position: fixed;
     height: 100%;
     bottom: 0;
@@ -51,11 +52,11 @@
 }
 
 .subheader {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     font-size: 16px;
     text-align: left;
-    color: #333399;
+    color: #828282;
 }
 
 .bottom-header {
@@ -75,17 +76,28 @@
 }
 
 .sidebar-links > a {
-    color: #555555;
+    color: #332957;
 }
 
 .sidebar-links > a:hover {
-    color: #5D3F61;
+    color: #555555;
 }
 
-.info-container {
+.main-container {
     padding-top: 15px;
     padding-left: 30px;
     text-align: center;
+    margin-left: 250px;
+}
+
+.info-container {
+    margin: 5rem 4rem 0rem 4rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .info-container {
+        margin-left: 0;
+    }
 }
 
 .header-buttons {

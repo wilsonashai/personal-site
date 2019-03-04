@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Grid, Header, Icon } from 'semantic-ui-react';
+import { Grid, Icon } from 'semantic-ui-react';
 
 class SideBar extends Component {
     constructor(props) {
@@ -24,9 +24,6 @@ class SideBar extends Component {
                         </Grid.Row>
                         <Grid.Row className="sidebar-links">
                             <a href="https://www.linkedin.com/in/asha-wilson-5618b483" target="_blank"><Icon size="large" name="linkedin"/> Asha Wilson</a>
-                        </Grid.Row>
-                        <Grid.Row className="sidebar-links">
-                        <a href="https://www.goodreads.com/eightqueens" target="_blank"><Icon size="large" name="goodreads"/> goodreads/eightqueens</a>
                         </Grid.Row>
                     </Grid>
                 </div>
