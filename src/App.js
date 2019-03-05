@@ -3,7 +3,6 @@ import './styles/App.css';
 import { Container, Button, Grid, Header, Icon, Image, Menu, Responsive } from 'semantic-ui-react';
 import SideBar from './components/SideBar';
 import mass_moca from './images/mass_moca_square.png';
-import grace_hopper from './images/grace_hopper_2018.jpg';
 
 class App extends Component {
     constructor(){
