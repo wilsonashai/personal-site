@@ -23,7 +23,7 @@ class SideBar extends Component {
                             <a href="https://github.com/wilsonashai" target="_blank"><Icon size="large" name="github"/> github/wilsonashai</a>
                         </Grid.Row>
                         <Grid.Row className="sidebar-links">
-                            <a href="https://www.linkedin.com/in/asha-wilson-5618b483" target="_blank"><Icon size="large" name="linkedin"/> Asha Wilson</a>
+                            <a href="https://www.linkedin.com/in/asha-i-wilson/" target="_blank"><Icon size="large" name="linkedin"/> Asha Wilson</a>
                         </Grid.Row>
                     </Grid>
                 </div>

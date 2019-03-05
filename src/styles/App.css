@@ -15,6 +15,28 @@
     width: 100%;
 }
 
+.mobile-menu {
+    padding-left: 1rem;
+    padding-right: 0.5rem;
+    height: 3.5rem;
+}
+
+.menu-header {
+    padding-top: 1rem;
+    font-family: 'Oranienbaum', serif;
+    font-size: 32px;
+    color:#333333;
+}
+
+.menu-icon {
+    padding: 5px 5px!important;
+    margin-bottom: 5px!important;
+}
+
+.menu-icon > a {
+    color: #3E2957;
+}
+
 .name-header {
     font-size: 68px;
     font-family: 'Oranienbaum', serif;
@@ -24,6 +46,7 @@
     text-align: left;
     margin-bottom: none!important;
     line-height: 1;
+    letter-spacing: 1.75px;
 }
 
 #root {
@@ -37,10 +60,7 @@
     height: 100%;
     bottom: 0;
     top: 0;
-}
-
-.top-header {
-    margin-left: 2rem; 
+    margin-left: 2rem;
 }
 
 .subheader {
@@ -52,7 +72,6 @@
 }
 
 .bottom-header {
-    margin-left: 2rem;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 12px;
@@ -97,6 +116,11 @@
 @media only screen and (max-width: 768px) {
     .main-container {
         margin-left: 0;
+    }
+
+    .info-container {
+        padding-left: 0;
+        padding-right: 0;
     }
 }
 
