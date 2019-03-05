@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
 @import url('https://fonts.googleapis.com/css?family=Oranienbaum');
+@import url('https://fonts.googleapis.com/css?family=Assistant');
 
 .App-intro {
   font-size: large;
@@ -19,10 +20,12 @@
     padding-left: 1rem;
     padding-right: 0.5rem;
     height: 3.5rem;
+    background-color: white!important;
+    border-bottom: 1px solid #828282;
 }
 
 .menu-header {
-    padding-top: 1rem;
+    padding-top: 1.2rem;
     font-family: 'Oranienbaum', serif;
     font-size: 32px;
     color:#333333;
@@ -108,14 +111,17 @@
 }
 
 .info-container > p {
-    font-size: 15px;
-    font-family: 'Open Sans', sans-serif;
-    color: #828282;
+    font-size: 16px;
+    line-height: 1.5;
+    /* font-weight: 400; */
+    font-family: 'Assistant', sans-serif;
+    color: #464646;
 }
 
 @media only screen and (max-width: 768px) {
     .main-container {
         margin-left: 0;
+        margin-top: 2rem;
     }
 
     .info-container {

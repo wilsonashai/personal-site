@@ -3,6 +3,7 @@ import './styles/App.css';
 import { Container, Button, Grid, Header, Icon, Image, Menu, Responsive } from 'semantic-ui-react';
 import SideBar from './components/SideBar';
 import mass_moca from './images/mass_moca_square.png';
+import grace_hopper from './images/grace_hopper_2018.jpg';
 
 class App extends Component {
     constructor(){
@@ -18,7 +19,7 @@ class App extends Component {
                     <Responsive as={SideBar} minWidth={768}/>
                     {/* Add alternative component for when screen is too small */}
                     <Responsive maxWidth={767}>
-                        <Menu className="mobile-menu" secondary pointing>
+                        <Menu className="mobile-menu" secondary pointing fixed='top'>
                             <Menu.Header className="menu-header">Asha Wilson</Menu.Header>
                             <Menu.Menu position='right'>
                                 <Menu.Item className='menu-icon' name="email">
@@ -46,8 +47,9 @@ class App extends Component {
                                 <Responsive as={Image} src={mass_moca} size='medium' floated='center' circular maxWidth={767}/>
                                 <Responsive as={Image} src={mass_moca} size='medium' floated='right' circular minWidth={768}/>
                                     <Header as='h1'>Hello there! I'm Asha – a developer and aspiring designer based in Boston.</Header>
+                                    <br/>
                                     <p>Currently, I work as a Software Developer at Liberty Mutual in their 
-                                        Global Finance Technology group. I have extensive full-stack experience in finTech. I graduated from the University of Pittsburgh's
+                                        Global Finance Technology group. I have extensive full-stack experience in FinTech. I graduated from the University of Pittsburgh's
                                         School of Computing and Information in May 2016.</p>
                                     <p>Outside of work, I am the Events and Volunteer Lead for the Boston Chapter of Black Girls Code.
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec odio odio, laoreet quis 
