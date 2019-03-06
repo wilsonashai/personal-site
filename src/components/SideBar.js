@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Icon } from 'semantic-ui-react';
+import resume from '../documents/Asha_Wilson_online_resume.pdf';
 
 class SideBar extends Component {
     constructor(props) {
@@ -16,6 +17,9 @@ class SideBar extends Component {
                 </div>
                 <div className="bottom-header">
                     <Grid columns={3}>
+                        <Grid.Row className="sidebar-links">
+                            <a href={resume} target="_blank" rel="noopener noreferrer"><Icon size="large" name="file pdf"/>Resume</a>
+                        </Grid.Row>
                         <Grid.Row className="sidebar-links">
                             <a href="mailto:wilson.ashai@gmail.com"><Icon size="large" name="mail"/> wilson.ashai@gmail.com</a>
                         </Grid.Row>
