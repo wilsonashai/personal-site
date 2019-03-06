@@ -12,7 +12,7 @@ class SideBar extends Component {
             <div className="side-bar-container">
                 <div className="top-header">
                     <h1 className="name-header">Asha Wilson</h1>
-                    <p className="subheader">Developer | Designer</p>
+                    <p className="subheader">Design. Code. Teach.</p>
                 </div>
                 <div className="bottom-header">
                     <Grid columns={3}>

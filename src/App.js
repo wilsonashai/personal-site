@@ -48,9 +48,9 @@ class App extends Component {
                                     <Header as='h1'>Hello there! I'm Asha – a developer and aspiring designer based in Boston.</Header>
                                     <br/>
                                     <p>Currently, I work as a Software Developer at Liberty Mutual in their 
-                                        Global Finance Technology group. I have extensive full-stack experience in FinTech. I graduated from the University of Pittsburgh's
+                                        Global Finance Technology group. I have significant full-stack experience in FinTech. I graduated from the University of Pittsburgh's
                                         School of Computing and Information in May 2016.</p>
-                                    <p>Outside of work, I am the Events and Volunteer Lead for the Boston Chapter of Black Girls Code.
+                                    <p>Outside of work, I am the Events and Volunteer Lead for the Boston chapter of Black Girls Code.
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec odio odio, laoreet quis 
                                         laoreet non, gravida et risus. Suspendisse consectetur dignissim nibh sit amet 
                                         faucibus. Duis et ligula massa. Proin at justo id ante euismod vestibulum quis sit amet 
