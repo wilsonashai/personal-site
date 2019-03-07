@@ -38,11 +38,13 @@ class App extends Component {
                             <Grid.Row>
                                 <Container className="info-container" textAlign='left' fluid>
                                 <Responsive as={Image} src={mass_moca} size='medium' centered circular maxWidth={767}/>
-                                <Responsive as={Image} src={mass_moca} size='medium' floated='right' circular minWidth={768}/>
-                                    <Header as='h1'>Hello there! I'm Asha – a developer and aspiring designer based in Boston.</Header>
+                                
+                                    <Header className="title" as='h1'>Hello there! I'm Asha – a developer and aspiring designer based in Boston.</Header>
+                                    
+                                    <Responsive as={Image} className="padding-top-10px" src={mass_moca} size='medium' floated='right' circular minWidth={768}/>
                                     <br/>
                                     <p>Currently, I work as a Software Developer at Liberty Mutual in their 
-                                        Global Finance Technology group. I have significant full-stack experience in FinTech - developing
+                                        Global Finance Technology group. I have significant full-stack experience in FinTech – developing
                                         and supporting Treasury, Reinsurance, and Accounting applications used globally by our customers. 
                                         I graduated from the University of Pittsburgh's School of Computing and Information in May 2016 
                                         with a BS in Information Science.

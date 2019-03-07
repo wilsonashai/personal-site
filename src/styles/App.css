@@ -115,15 +115,19 @@ body {
 
 .info-container {
     margin-top: 3rem;
-    padding-left: 3rem;
-    padding-right: 3rem;
+    padding-left: 6rem;
+    padding-right: 10rem;
 }
 
 .info-container > p {
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 1.7;
     font-family: 'Assistant', sans-serif;
     color: #464646;
+}
+
+.title {
+    font-size: 2.5rem!important;
 }
 
 .info-link {
@@ -135,7 +139,9 @@ body {
    color: #570091;
 }
 
-
+.padding-top-10px {
+    padding-top: 10px;
+}
 
 @media only screen and (max-width: 768px) {
     .main-container {
