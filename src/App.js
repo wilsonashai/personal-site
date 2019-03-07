@@ -38,9 +38,7 @@ class App extends Component {
                             <Grid.Row>
                                 <Container className="info-container" textAlign='left' fluid>
                                 <Responsive as={Image} src={mass_moca} size='medium' centered circular maxWidth={767}/>
-                                
                                     <Header className="title" as='h1'>Hello there! I'm Asha – a developer and aspiring designer based in Boston.</Header>
-                                    
                                     <Responsive as={Image} className="padding-top-10px" src={mass_moca} size='medium' floated='right' circular minWidth={768}/>
                                     <br/>
                                     <p>Currently, I work as a Software Developer at Liberty Mutual in their 
