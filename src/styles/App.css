@@ -19,7 +19,6 @@ html, body {
 
 body {
     background-size: cover;
-    
 }
 
 .Content {
@@ -53,7 +52,6 @@ body {
 .name-header {
     font-size: 68px;
     font-family: 'Oranienbaum', serif;
-    /* font-weight: 400; */
     padding-top: 3rem;
     color:#333333;
     text-align: left;
@@ -124,10 +122,20 @@ body {
 .info-container > p {
     font-size: 16px;
     line-height: 1.5;
-    /* font-weight: 400; */
     font-family: 'Assistant', sans-serif;
     color: #464646;
 }
+
+.info-link {
+    color: #2C005D;
+    border-bottom: 1px solid #555555;
+}
+
+.info-link:hover {
+   color: #570091;
+}
+
+
 
 @media only screen and (max-width: 768px) {
     .main-container {

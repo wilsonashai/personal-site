@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Icon } from 'semantic-ui-react';
-import resume from '../documents/Asha_Wilson_online_resume.pdf';
+import resume from '../documents/Asha_Wilson_Public_Resume.pdf';
 
 class SideBar extends Component {
     constructor(props) {
@@ -18,16 +18,16 @@ class SideBar extends Component {
                 <div className="bottom-header">
                     <Grid columns={3}>
                         <Grid.Row className="sidebar-links">
-                            <a href={resume} target="_blank" rel="noopener noreferrer"><Icon size="large" name="file pdf"/>Resume</a>
+                            <a href={resume} target="_blank" rel="noopener noreferrer"><Icon size="large" name="file pdf"/> Resume</a>
                         </Grid.Row>
                         <Grid.Row className="sidebar-links">
-                            <a href="mailto:wilson.ashai@gmail.com"><Icon size="large" name="mail"/> wilson.ashai@gmail.com</a>
+                            <a href="mailto:wilson.ashai@gmail.com"><Icon size="large"  name="mail"/> wilson.ashai@gmail.com</a>
                         </Grid.Row>
                         <Grid.Row className="sidebar-links">
-                            <a href="https://github.com/wilsonashai" target="_blank"><Icon size="large" name="github"/> github/wilsonashai</a>
+                            <a href="https://github.com/wilsonashai" target="_blank" rel="noopener noreferrer"><Icon size="large" name="github"/> github/wilsonashai</a>
                         </Grid.Row>
                         <Grid.Row className="sidebar-links">
-                            <a href="https://www.linkedin.com/in/asha-i-wilson/" target="_blank"><Icon size="large" name="linkedin"/> Asha Wilson</a>
+                            <a href="https://www.linkedin.com/in/asha-i-wilson/" target="_blank" rel="noopener noreferrer"><Icon size="large" name="linkedin"/> Asha Wilson</a>
                         </Grid.Row>
                     </Grid>
                 </div>
