@@ -3,7 +3,7 @@ import './styles/App.css';
 import { Container, Grid, Header, Icon, Image, Menu, Responsive } from 'semantic-ui-react';
 import SideBar from './components/SideBar';
 import mass_moca from './images/mass_moca_square.png';
-import resume from './documents/Asha_Wilson_Public_Resume.pdf';
+import resume from './documents/Asha_Wilson_Resume.pdf';
 
 class App extends Component {
     constructor(){
