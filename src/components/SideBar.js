@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Icon } from 'semantic-ui-react';
-import resume from '../documents/Asha_Wilson_Resume.pdf';
+import resume from '../documents/Asha_Wilson_Resume_v2.pdf';
 
 class SideBar extends Component {
     constructor(props) {
