@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-import { Menu } from 'semantic-ui-react';
+import { Image, Menu } from 'semantic-ui-react';
+import resume from '../documents/Asha_Wilson_Resume_v2.pdf';
+import logo from '../images/personal_logo.svg';
 
 class NavBar extends Component {
     constructor(props) {
@@ -9,12 +11,14 @@ class NavBar extends Component {
 
     render() {
       return (
-        <Menu secondary className="navi">
-            <Menu.Header className="nav-header">Asha Wilson</Menu.Header>
+        <Menu secondary className="nav-bar">
+            <Menu.Header className="logo">
+                <a href="/"><Image size='tiny' src={logo}/></a>
+            </Menu.Header>
             <Menu.Menu className="nav-items" position="right">
-                <Menu.Item>About Me</Menu.Item>
-                <Menu.Item disabled>Resume</Menu.Item>
-                <Menu.Item disabled>Contact</Menu.Item>
+                <Menu.Item href="/">About</Menu.Item>
+                <Menu.Item disabled title="Coming soon!">Work</Menu.Item>
+                <Menu.Item href={resume} target="_blank" rel="noopener noreferrer">Resumé</Menu.Item>
             </Menu.Menu>
         </Menu>
       );
