@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Container, Image } from 'semantic-ui-react';
-import mass_moca from './../images/mass_moca_square.png';
+import paris_img from './../images/paris_square.jpg';
 
 class About extends Component {
     constructor(props) {
@@ -11,14 +11,14 @@ class About extends Component {
     render() {
         return (
             <Container fluid textAlign='left'>
-                <h1 className="title">Hello! I'm Asha Wilson&mdash;<br/>
+                <h1 className="title"><span>Hello! I'm Asha Wilson&mdash;</span><br/>
                 a software developer and designer based in Boston.</h1>
                 <br/>
                 <div className="about-container">
                     <div className="about-text">
-                        <p className="blurb">Currently, I work as a Software Developer at Liberty Mutual Insurance in their 
-                        Global Finance Technology group. I joined Liberty after graduating from the University of Pittsburgh's School 
-                        of Computing and Information in May 2016 with a BS in Information Science.
+                        <p className="blurb">Currently, I work as a Software Developer at Liberty Mutual Insurance in their US Digital Sales
+                        group supporting the renters quoting applications. I joined Liberty after graduating from the University of Pittsburgh's 
+                        School of Computing and Information in May 2016 with a BS in Information Science.
                         </p>
                         <p className="blurb">At Liberty, I am a graduate of their <a className="info-link" href="https://techcampus.libertymutual.com/#/findYourJob/techProgram#techProgram"
                             target="_blank" rel="noopener noreferrer"> TechStart Development Program</a>, where I completed various
@@ -30,12 +30,12 @@ class About extends Component {
                         <p className="blurb">Outside of work, I am the Events and Volunteer Lead for the Boston chapter of <a className="info-link" href="http://www.blackgirlscode.com/" 
                             target="_blank" rel="noopener noreferrer">Black Girls Code</a>, where I help plan monthly weekend workshops and enrichment 
                             activities to introduce young minority girls to coding. Besides technology and design, some of my other interests 
-                            include keeping up with the NBA, trying out new recipes, and reading lots of books (find me on <a className="info-link" href="https://www.goodreads.com/eightqueens" 
+                            include keeping up with the NBA, trying out new recipes, and reading many books (find me on <a className="info-link" href="https://www.goodreads.com/eightqueens" 
                             target="_blank" rel="noopener noreferrer">Goodreads</a>).
                         </p>
                     </div>
                     <div className="about-image">
-                        <Image src={mass_moca} fluid circular/>
+                        <Image src={paris_img} fluid circular/>
                     </div>
                 </div>
             </Container>
