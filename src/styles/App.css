@@ -31,12 +31,12 @@ html, body {
 .nav-bar {
     padding-top: 20px;
     padding-left: 4rem;
-    padding-right: 10%;
+    padding-right: 6rem;
 }
 
 .nav-items {
     font-family: 'Avenir-Roman', Lato, sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     color: #27215C!important;
 }
 
@@ -70,7 +70,7 @@ html, body {
 .copywrite {
     font-family: 'Avenir-Light', Lato, sans-serif;
     font-size: 14px;
-    margin-right: 15rem;
+    margin-right: 2.5rem;
     color: #828282;
     letter-spacing: .5px;
 }
@@ -96,21 +96,27 @@ html, body {
 .title {
     font-size: 2.25rem!important;
     padding-top: 5rem;
-    padding-bottom: 2.5rem;
+    padding-bottom: 2rem;
     font-family: 'Avenir-Heavy', Lato, sans-serif;
     color: hsl(247, 44%, 32%);
     letter-spacing: 1px;
+}
+
+h1 span {
+    font-size: 3rem!important;
+    line-height: 1.5;
 }
 
 .about-container {
     display: flex;
     flex-wrap: wrap-reverse;
     justify-content: space-between;
+    margin-bottom: 3rem;
 }
 
 .about-text {
     flex-basis: 450px;
-    max-width: 725px;
+    max-width: 60%;
     flex-grow: 1;
 }
 
@@ -118,12 +124,13 @@ html, body {
     font-size: 16px;
     font-family: 'Avenir', Lato, sans-serif;
     line-height: 1.8!important;
-    color: #606060;
+    color: #444444;
+    margin-bottom: 1.5em!important;
 }
 
 .about-image {
     flex-basis: 350px;
-    padding-bottom: 3rem;
+    padding-bottom: 1rem;
     padding-left: 1rem;
 }
 
@@ -158,6 +165,14 @@ html, body {
 
     .nav-items .item {
         margin: 0px 3px 0px!important;
+    }
+
+    .about-text {
+        max-width: 100%;
+    }
+
+    .about-image {
+        padding-bottom: 3rem;
     }
 
     .copywrite {

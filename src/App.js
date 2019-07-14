@@ -17,7 +17,6 @@ class App extends Component {
                 <div id="page-container">
                     <NavBar/>
                     <div className="Content">
-                        {/* <NavBar/> */}
                         <About/>
                     </div>
                     <Footer/>
