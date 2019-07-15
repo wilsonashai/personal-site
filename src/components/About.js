@@ -29,7 +29,7 @@ class About extends Component {
                         </p>
                         <p className="blurb">Outside of work, I am the Events and Volunteer Lead for the Boston chapter of <a className="info-link" href="http://www.blackgirlscode.com/" 
                             target="_blank" rel="noopener noreferrer">Black Girls Code</a>, where I help plan monthly weekend workshops and enrichment 
-                            activities to introduce young minority girls to coding. Besides technology and design, some of my other interests 
+                            activities to introduce young girls of color to coding. Besides technology and design, some of my other interests 
                             include keeping up with the NBA, trying out new recipes, and reading many books (find me on <a className="info-link" href="https://www.goodreads.com/eightqueens" 
                             target="_blank" rel="noopener noreferrer">Goodreads</a>).
                         </p>
