@@ -12,12 +12,12 @@ class About extends Component {
         return (
             <Container fluid textAlign='left'>
                 <h1 className="title"><span>Hello! I'm Asha Wilson&mdash;</span><br/>
-                a software developer and designer based in Boston.</h1>
+                a software engineer and designer based in Boston.</h1>
                 <br/>
                 <div className="about-container">
                     <div className="about-text">
-                        <p className="blurb">Currently, I work as a Software Developer at Liberty Mutual Insurance in their US Digital Sales
-                        group supporting the renters quoting applications. I joined Liberty after graduating from the University of Pittsburgh's 
+                        <p className="blurb">Currently, I work as a Software Engineer at Liberty Mutual Insurance in their US Digital Sales
+                        group supporting renters and auto quoting. I joined Liberty after graduating from the University of Pittsburgh's 
                         School of Computing and Information in May 2016 with a BS in Information Science.
                         </p>
                         <p className="blurb">At Liberty, I am a graduate of their <a className="info-link" href="https://techcampus.libertymutual.com/#/findYourJob/techProgram#techProgram"
