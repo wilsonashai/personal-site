@@ -1,5 +1,6 @@
 ## Asha Wilson's personal site.
 
-A personal site to display my personal and professional background to those interested.
+This is my personal site to display my personal and professional background to those interested.
+It was designed by myself using React and Semantic-UI and hosted on Netlify.
 
-* Can be accessed at https://www.ashawilson.com/.
+To view, please head to https://www.ashawilson.com/.
