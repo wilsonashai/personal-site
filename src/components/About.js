@@ -16,8 +16,13 @@ class About extends Component {
                 <br/>
                 <div className="about-container">
                     <div className="about-text">
+<<<<<<< HEAD
                         <p className="blurb">Currently, I work as a Software Engineer at Liberty Mutual in their Digital Sales
                         group supporting the US renters and auto quoting experiences. I joined Liberty after graduating from the University of Pittsburgh's 
+=======
+                        <p className="blurb">Currently, I work as a Software Engineer at Liberty Mutual Insurance in their US Digital Sales
+                        group supporting renters and auto quoting. I joined Liberty after graduating from the University of Pittsburgh's 
+>>>>>>> d228ce98104669ae5ed5f718223979840b9678ad
                         School of Computing and Information in May 2016 with a BS in Information Science.
                         {/* <p className="blurb">Recently, 
                             I was nominated and sponsored by Liberty Mutual to participate in The Partnership Inc's <a className="info-link" href=
