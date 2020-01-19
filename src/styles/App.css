@@ -23,7 +23,7 @@ html, body {
 }
 
 .Content {
-    width: 70%;
+    width: 75%;
     margin: 0 auto;
     padding-bottom: 6rem;
 }
@@ -95,8 +95,8 @@ html, body {
 
 .title {
     font-size: 2.25rem!important;
-    padding-top: 5rem;
-    padding-bottom: 2rem;
+    padding-top: 4rem;
+    padding-bottom: 1.5rem;
     font-family: 'Avenir-Heavy', Lato, sans-serif;
     color: hsl(247, 44%, 32%);
     letter-spacing: 1px;
@@ -115,6 +115,8 @@ h1 span {
 }
 
 .about-text {
+    display: flex;
+    align-items: center;
     flex-basis: 450px;
     max-width: 60%;
     flex-grow: 1;
@@ -129,7 +131,7 @@ h1 span {
 }
 
 .about-image {
-    flex-basis: 350px;
+    flex-basis: 315px;
     padding-bottom: 1rem;
     padding-left: 1rem;
 }
