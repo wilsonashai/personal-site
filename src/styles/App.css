@@ -97,9 +97,12 @@ html, body {
     font-family: 'Avenir-Heavy', Lato, sans-serif;
     color: hsl(247, 44%, 32%);
     letter-spacing: 1px;
+    margin-bottom: 1rem;
 }
 
 .subheader {
+    line-height: 1.25;
+    
     animation-name: slideLeft;
     animation-duration: 2s;
 }
