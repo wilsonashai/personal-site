@@ -11,8 +11,10 @@ class About extends Component {
     render() {
         return (
             <Container fluid textAlign='left'>
-                <h1 className="title"><span>Hello! I'm Asha Wilson&mdash;</span><br/>
-                a software engineer and designer based in Boston.</h1>
+                <div className="title">
+                    <div className="major-header">Hello! I'm Asha Wilson&mdash;</div><br/>
+                    <div className="subheader">a software engineer and designer based in Boston.</div>
+                </div>
                 <br/>
                 <div className="about-container">
                     <div className="about-text">

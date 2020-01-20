@@ -99,9 +99,17 @@ html, body {
     letter-spacing: 1px;
 }
 
-h1 span {
+.subheader {
+    animation-name: slideLeft;
+    animation-duration: 2s;
+}
+
+.major-header {
     font-size: 3rem!important;
     line-height: 1.5;
+
+    animation-name: slideRight;
+    animation-duration: 2s;
 }
 
 .about-container {
@@ -109,6 +117,10 @@ h1 span {
     flex-wrap: wrap-reverse;
     justify-content: space-between;
     margin-bottom: 3rem;
+
+    animation-name: fadeIn;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-in;
 }
 
 .about-text {
@@ -142,6 +154,35 @@ h1 span {
    color:	hsl(315, 58%, 27%)
 }
 
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: .5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes slideLeft {
+    from {
+        transform: translateX(2000px);
+    }
+    to {
+        transform: translateX(0px);
+    }
+}
+
+@keyframes slideRight {
+    from {
+        transform: translateX(-1000px);
+    }
+    to {
+        transform: translateX(0px);
+    }
+}
 
 @media only screen and (max-width: 785px) {
     .Content {

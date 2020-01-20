@@ -10,7 +10,7 @@ class Footer extends Component {
     render() {
         return (
             <div className="footer">
-                <p className="inline-block copywrite">© 2019 Asha Wilson</p>
+                <p className="inline-block copywrite">© 2020 Asha Wilson</p>
                 <div className="inline-block icon-group">
                     <a href="mailto:wilson.ashai@gmail.com"><Icon size="large"  name="mail"/></a>
                     <a href="https://github.com/wilsonashai" target="_blank" rel="noopener noreferrer"><Icon size="large" name="github"/></a>
