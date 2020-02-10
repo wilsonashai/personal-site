@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Image, Menu } from 'semantic-ui-react';
-import resume from '../documents/Asha-resume-Jan-2020.pdf';
+import resume from '../documents/Asha-resume-2020.pdf';
 import logo from '../images/personal_logo.svg';
 
 class NavBar extends Component {
