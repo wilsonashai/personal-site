@@ -34,7 +34,7 @@ html, body {
 .nav-items {
     font-family: 'Avenir-Roman', Lato, sans-serif;
     font-size: 14px;
-    color: #27215C!important;
+    color: #9FB2DF!important;
 }
 
 .nav-items .logo {
@@ -43,7 +43,7 @@ html, body {
 
 .nav-items a:hover {
     background-color: transparent!important;
-    color: hsl(315, 48%, 38%)!important;
+    color: #E68637!important;
     font-family: 'Avenir-Medium', Lato, sans-serif;
     letter-spacing: .6px;
 }
@@ -95,7 +95,7 @@ html, body {
     padding-top: 4rem;
     padding-bottom: 1.5rem;
     font-family: 'Avenir-Heavy', Lato, sans-serif;
-    color: hsl(247, 44%, 32%);
+    color: #9FB2DF;
     letter-spacing: 1px;
     margin-bottom: 1rem;
 }
@@ -149,12 +149,12 @@ html, body {
 }
 
 .info-link {
-    color: 	hsl(247, 42%, 40%);
-    border-bottom: 1px solid #828282;
+    color: #e279a8;
+    border-bottom: 1px solid #9FB2DF;
 }
 
 .info-link:hover {
-   color:	hsl(315, 58%, 27%)
+   color: #E68637;
 }
 
 @keyframes fadeIn {
