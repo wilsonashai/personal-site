@@ -13,7 +13,7 @@ class About extends Component {
             <Container fluid textAlign='left'>
                 <div className="title">
                     <div className="major-header">Hello! I'm Asha Wilson&mdash;</div>
-                    <div className="subheader">a front end engineer based in Washington DC.</div>
+                    <div className="subheader">a front end engineer based in Washington, DC.</div>
                 </div>
                 <br/>
                 <div className="about-container">
