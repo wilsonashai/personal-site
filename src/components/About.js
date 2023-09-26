@@ -13,24 +13,24 @@ class About extends Component {
             <Container fluid textAlign='left'>
                 <div className="title">
                     <div className="major-header">Hello! I'm Asha Wilson&mdash;</div>
-                    <div className="subheader">a software engineer based in Washington DC.</div>
+                    <div className="subheader">a front end engineer based in Washington DC.</div>
                 </div>
                 <br/>
                 <div className="about-container">
                     <div className="about-text">
-                        <p className="blurb">Currently, I work as a Software Engineer II at Micrososft supporting commercial self-service checkout
+                        <p className="blurb">Most recently, I worked as a Software Engineer II at Micrososft supporting commercial self-service checkout
                         at Microsoft in their Commerce, Platform + Experience group. 
                         <br/>
                         <br/>
-                        Previously, I worked at Liberty Mutual in their Digital Sales group supporting the US renters and auto 
+                        Before Microsoft, I worked at Liberty Mutual in their Digital Sales group supporting the US renters and auto 
                         quoting experiences. I joined Liberty after graduating from the University of Pittsburgh's 
                         School of Computing and Information in May 2016 with a BS in Information Science.
                         <br/>
                         <br/>
                         Outside of work, I served as the Events and Volunteer Lead for the Boston chapter of <a className="info-link" href="http://www.blackgirlscode.com/" 
-                        target="_blank" rel="noopener noreferrer">Black Girls Code</a> for 3 years and serve as a mentor for <a className="info-link" href="https://hackdiversity.com/" 
-                        target="_blank" rel="noopener noreferrer">Hack.Diversity</a>. Besides technology and design, some of my other interests and hobbies include trying out new nail art designs, 
-                        ice skating, traveling and reading lots of books.
+                        target="_blank" rel="noopener noreferrer">Black Girls Code</a> for 3 years and served as a mentor for <a className="info-link" href="https://hackdiversity.com/" 
+                        target="_blank" rel="noopener noreferrer">Hack.Diversity</a>. Besides technology and design, some of my other interests and hobbies include <a className="info-link" href="https://www.instagram.com/mynails.jpg/" 
+                        target="_blank" rel="noopener noreferrer">nail art</a>, spinning, and reading.
                         </p>
                     </div>
                     <div className="about-image">
